@@ -21,6 +21,10 @@
     .fa-map-marker-alt {
         padding-right: .5em;
     }
+    .fa-store {
+        padding-right: 1em;
+        color: gray;
+    }
     #homeTop {
         text-align: center;
         font-weight: bolder;
@@ -74,9 +78,11 @@
     }
     .fa-mobile-alt {
         padding-right: 1rem;
+        color: gray;
     }
     .fa-list-ul {
-        padding-right: 1.5rem;
+        padding-right: 1rem;
+        color: gray;
     }
     .fa-bars {
         padding-right: 1.5rem;
@@ -150,36 +156,68 @@
     a:focus {
         color: #9356DC;
     }
-    .heart {    
-        color: white;
+    .divHeart {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 1rem;
+    }
+    .heart {
+        justify-content: flex-end;
         z-index: 1;
         top: -40px;
         left: 300px;
-        position: relative;
         color: black;
         width: 20px;
         font-size: 1.5rem;
     }
     .fasHeart {
+        justify-content: flex-end;
+        z-index: 1;
+        top: -40px;
+        left: 300px;
+        color: #9356DC;
+        width: 20px;
+        font-size: 1.5rem;
+    }
+    #heartPurple {
         display: none;
     }
-    .faHeart:focus {
+    #heartBlack {
+        display: inline-block;
+    }
+    #heartBlack:hover {
         display: none;
     }
-    .faHeart:focus ~ .fasHeart {
+    #heartBlack:hover ~ #heartPurple {
         display: block;
-        color: red;
+    }
+    #heartPurple:hover {
+        display: none;
+    }
+    #heartPurple:hover ~ #heartBlack {
+        display: block;
+    }
+    #heartBlack:focus {
+        display: none;
+    }
+    #heartBlack:focus ~ #heartPurple {
+        display: block;
+    }
+    #heartPurple:focus {
+        display: none;
+    }
+    #heartPurple:focus ~ #heartBlack {
+        display: block;
     }
     .new {
         background-color: #99E2D0;
-        color: white;
+        color: green;
         font-size: 15px!important;
         z-index: 1;
         padding: 2px 5px;
-        top: -275px;
-        left: 230px;
+        top: -290px;
+        left: 260px;
         position: relative;
-        color: black;
         width: 20px;
         font-size: 1.5rem;
     }
@@ -201,31 +239,22 @@
     }
     .minCard {
         background-color: white;
-        border-radius: 20px;
+        border-radius: 15px;
     }
     .minCard p {
         margin: 1px;
         padding: 0 15px;
     }
     .minCard h4 {
-        padding: 10px 0 0 10px;
+        padding: 10px 0 0 16px;
+        margin-bottom: 4px;
     }
     #content h3 {
         padding-top: 1rem;
         font-weight: 100;
         border-bottom: 3px solid #99E2D0;
         display: inline-block;
-    }
-    .price {
-        font-size: 15px!important;
-        z-index: 1;
-        padding: 2px 5px;
-        top: -20px;
-        left: 300px;
-        position: relative;
-        color: black;
-        width: 20px;
-        font-size: 1.5rem;
+        text-transform: uppercase;
     }
     #order {
         color: white;
@@ -276,5 +305,36 @@
     }
     .dessertsThree {
         animation: 3.3s ease-out 0s 1 slideInFromTop;
+    }
+    .contentMinCard {
+        display: flex; 
+        justify-content: space-between;
+    }
+    .valid {
+        display: none;
+        margin-top: -34px;
+        background-color: #99E2D0;
+        border-radius: 0 15px 15px 0;
+        padding: 18px;
+        transition: all 2s linear;
+    }
+    .valid .fa-check-circle {
+        color: white;
+    }
+    .minCard:hover .valid {
+        display: block;
+    }
+    .minCard:hover .accompaniment {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .titleContent {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+    .titleContent a {
+        padding-top: 25px;
     }
 }

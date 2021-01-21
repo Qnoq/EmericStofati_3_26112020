@@ -1,0 +1,189 @@
+body {
+    margin: auto;
+}
+#logo {
+    text-align: center;
+    margin-top: 1em;
+}
+#logo img {
+    width: 20%;
+    text-align: center;
+}
+#location span {
+    font-weight: 400;
+    font-size: x-small;
+}
+#homeTop h4 {
+    margin: 0;
+    padding: 1.5em 3em 0 3em;
+    font-size: x-small;
+}
+#homeTop p {
+    padding: 0 2em;
+    font-weight: 1;
+    font-size: xx-small;
+}
+#operation h3 {
+    padding-left: 1rem;
+    font-size: xx-small;
+}
+#chooseRest {
+    font-weight: bolder;
+    border: none;
+    padding: 1rem;
+    border-radius: 30px;
+    margin: 0.5rem 1rem;
+    box-shadow: 5px 5px 10px 5px #f6f6f6;
+    font-size: xx-small;
+}
+#btnOperation span {
+    z-index: 1;
+    top: 41px;
+    left: 9px;
+    position: relative;
+    background-color: #9356DC;
+    color: white;
+    border-radius: 20px;
+    padding: .2rem;
+    text-align: center;
+    width: 18px;
+    height: 18px;
+}
+#restaurant h3 {
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    font-size: xx-small;
+}
+.new {
+    background-color: #99E2D0;
+    color: green;
+    font-size: 15px!important;
+    z-index: 1;
+    padding: 2px 5px;
+    top: -240px;
+    left: 190px;
+    position: relative;
+    width: 20px;
+    font-size: 1.5rem;
+}
+.card h4 {
+    margin: 1px;
+    padding: .5rem 1rem;
+    font-size: xx-small;
+}
+.card p {
+    margin: 1px;
+    padding: 0 0 1rem 1rem;
+    font-size: xx-small;
+}
+.heart {
+    justify-content: flex-end;
+    position: relative;
+    z-index: 1;
+    top: -22px;
+    left: 5px;
+    color: black;
+    width: 20px;
+    font-size: 1rem;
+}
+.fasHeart {
+    justify-content: flex-end;
+    position: relative;
+    z-index: 1;
+    top: -22px;
+    left: 5px;
+    color: #9356DC;
+    width: 20px;
+    font-size: 1rem;
+}
+.card img {
+    width: 100%;
+    height: 198px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+#headerRestaurant img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.titleContent .heart {
+    justify-content: flex-end;
+    position: relative;
+    z-index: 1;
+    top: -8px;
+    left: -5px;
+    color: black;
+    width: 20px;
+    font-size: 1rem;
+}
+.titleContent .fasHeart {
+    justify-content: flex-end;
+    position: relative;
+    z-index: 1;
+    top: -8px;
+    left: -5px;
+    color: #9356DC;
+    width: 20px;
+    font-size: 1rem;
+}
+#content h2 {
+    font-family: 'Shrikhand', sans-serif;
+    font-size: 1em;
+}
+#content h3 {
+    padding-top: 1rem;
+    font-weight: 100;
+    border-bottom: 3px solid #99E2D0;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: x-small;
+}
+.minCard h4 {
+    padding: 5px 0 0 16px;
+    margin-bottom: 4px;
+    font-size: x-small;
+}
+.minCard p {
+    margin: 1px;
+    padding: 0 15px 5px 15px;
+    font-size: xx-small;
+}
+.valid {
+    display: none;
+    margin-top: -21px;
+    background-color: #99E2D0;
+    border-radius: 0 15px 15px 0;
+    padding: 0px 15px;
+}
+.valid .fa-check-circle {
+    color: white;
+    top: 9px;
+    position: relative;
+}
+.minCard:hover .valid {
+    display: block;
+}
+.minCard:hover .accompaniment {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#order {
+    color: white;
+    background-image: linear-gradient(#FF79DA, #9356DC);
+    border-radius: 30px;
+    padding: .5rem 1rem;
+    border: none;
+    margin-bottom: 3rem;
+    margin-top: 1.5rem;
+}
+footer div a {
+    font-size: xx-small;
+}
+.fa-utensils {
+    padding-right: .2rem;
+}
+.fa-hands-helping {
+    padding-right: .2rem;
+}
