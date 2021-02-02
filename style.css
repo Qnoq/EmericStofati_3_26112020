@@ -1,8 +1,0 @@
-@import "mobile.css";
-@import "tablet.css";
-@import "desktop.css";
-
-body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-}

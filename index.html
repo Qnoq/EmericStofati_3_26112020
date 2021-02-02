@@ -4,21 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,100&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,100&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="desktop.css">
+    <link rel="stylesheet" media="screen and (max-width: 724px)" href="mobile.css">
+    <link rel="stylesheet" media="screen and (max-width: 1024px)" href="tablet.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ohmyfood</title>
 </head>
 
 <body>
-    <header>
-        <div id="logo">
-            <img src="Maquettes Ohmyfood/images/logo/ohmyfood.png" alt="ohmyfoodlogo">
-        </div>
+    <div id="loader">
+        <header>
+            <div class="loader">Loading...</div>
+    </div>
+    <div id="logo">
+        <input class="hiddenInput1">
+        <img src="Maquettes-Ohmyfood/images/logo/ohmyfood.png" alt="ohmyfoodlogo">
+        <input class="hiddenInput">
+    </div>
     </header>
     <main>
         <div id="location">
@@ -33,81 +39,61 @@
             <h3>Fonctionnement</h3>
             <div id="btnOperation">
                 <span>1</span>
-                <button id="chooseRest"><i class="fas fa-mobile-alt"></i>Choisissez un restaurant</button>
+                <button class="chooseRest"><i class="fas fa-mobile-alt"></i>Choisissez un restaurant</button>
                 <span>2</span>
-                <button id="chooseRest"><i class="fas fa-list-ul"></i></i>Composez votre menu</button>
+                <button class="chooseRest"><i class="fas fa-list-ul"></i>Composez votre menu</button>
                 <span>3</span>
-                <button id="chooseRest"><i class="fas fa-store"></i>Dégustez au restaurant</button>
+                <button class="chooseRest"><i class="fas fa-store"></i>Dégustez au restaurant</button>
             </div>
         </div>
         <div id="restaurant">
             <h3>Restaurants</h3>
             <div class="card">
-                <img src="Maquettes Ohmyfood\images\restaurants\jay-wennington-N_Y88TWmGwA-unsplash.jpg"
-                    alt="palette-de-gout">
                 <a href="taste-palette.html">
-                    <h4>La palette de goût</h4>
+                    <img src="Maquettes-Ohmyfood/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="palette-de-gout">
                 </a>
+                <h4>La palette de goût</h4>
                 <div class="divHeart">
                     <p>Ménilmontant</p>
-                    <a href="#" id="heartBlack">
-                        <i class="far fa-heart faHeart heart"></i>
-                    </a>
-                    <a href="#" id="heartPurple">
-                        <i class="fas fa-heart fasHeart"></i>
-                    </a>
+                    <i class="far fa-heart faHeart heart"></i>
+                    <i class="fas fa-heart fasHeart"></i>
                 </div>
                 <span class="new">Nouveau</span>
             </div>
             <div class="card">
                 <div class="image">
-                    <img id="enchantedNote" src="Maquettes Ohmyfood\images\restaurants\stil-u2Lp8tXIcjw-unsplash.jpg"
-                        alt="palette-de-gout">
+                    <a href="enchanted-note.html">
+                        <img id="enchantedNote" src="Maquettes-Ohmyfood/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="palette-de-gout">
+                    </a>
                 </div>
-                <a href="enchanted-note.html">
-                    <h4>La note enchantée</h4>
-                </a>
+                <h4>La note enchantée</h4>
                 <div class="divHeart">
                     <p>Charonne</p>
-                    <a href="#" id="heartBlack">
-                        <i class="far fa-heart faHeart heart"></i>
-                    </a>
-                    <a href="#" id="heartPurple">
-                        <i class="fas fa-heart fasHeart"></i>
-                    </a>
+                    <i class="far fa-heart faHeart heart"></i>
+                    <i class="fas fa-heart fasHeart"></i>
                 </div>
                 <span class="new">Nouveau</span>
             </div>
             <div class="card">
-                <img src="Maquettes Ohmyfood\images\restaurants\toa-heftiba-DQKerTsQwi0-unsplash.jpg"
-                    alt="palette-de-gout">
                 <a href="french-style.html">
-                    <h4>A la française</h4>
+                    <img src="Maquettes-Ohmyfood/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="palette-de-gout">
                 </a>
+                <h4>A la française</h4>
                 <div class="divHeart">
                     <p>Cité Rouge</p>
-                    <a href="#" id="heartBlack">
-                        <i class="far fa-heart faHeart heart"></i>
-                    </a>
-                    <a href="#" id="heartPurple">
-                        <i class="fas fa-heart fasHeart"></i>
-                    </a>
+                    <i class="far fa-heart faHeart heart"></i>
+                    <i class="fas fa-heart fasHeart"></i>
                 </div>
             </div>
             <div class="card">
-                <img src="Maquettes Ohmyfood\images\restaurants\louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
-                    alt="palette-de-gout">
                 <a href="delight-of-the-senses.html">
-                    <h4>Le délice des sens</h4>
+                    <img src="Maquettes-Ohmyfood/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="palette-de-gout">
                 </a>
+                <h4>Le délice des sens</h4>
                 <div class="divHeart">
                     <p>Folie-Méricourt</p>
-                    <a href="#" id="heartBlack">
-                        <i class="far fa-heart faHeart heart"></i>
-                    </a>
-                    <a href="#" id="heartPurple">
-                        <i class="fas fa-heart fasHeart"></i>
-                    </a>
+                    <i class="far fa-heart faHeart heart"></i>
+                    <i class="fas fa-heart fasHeart"></i>
                 </div>
             </div>
         </div>
@@ -118,7 +104,7 @@
             <a href="#"><i class="fas fa-utensils"></i>Proposer un restaurant</a>
             <a href="#"><i class="fas fa-hands-helping"></i>Devenir partenaire</a>
             <a href="#">Mentions légales</a>
-            <a href="#">Contact</a>
+            <a href="mailto:emeric.stofati@outlook.fr">Contact</a>
         </div>
     </footer>
 </body>

@@ -4,29 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,100&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,100&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="desktop.css">
+    <link rel="stylesheet" media="screen and (max-width: 724px)" href="mobile.css">
+    <link rel="stylesheet" media="screen and (max-width: 1024px)" href="tablet.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ohmyfood</title>
 </head>
 
 <body>
+    <header>
+        <div id="logo">
+            <a href="index.html"><i class="fas fa-arrow-left fa-2x"></i></a>
+            <img src="Maquettes-Ohmyfood/images/logo/ohmyfood.png" alt="ohmyfoodlogo">
+            <input class="hiddenInput">
+        </div>
+    </header>
     <div id="headerRestaurant">
-        <img src="Maquettes Ohmyfood\images\restaurants\toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="a-la-française">
+        <a href="index.html"><img src="Maquettes-Ohmyfood/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="a-la-française"></a>
     </div>
     <div id="content">
         <div class="titleContent">
             <h2>A la française</h2>
-            <a href="#" id="heartBlack">
-                <i class="far fa-heart faHeart heart"></i>
-            </a>
-            <a href="#" id="heartPurple">
-                <i class="fas fa-heart fasHeart"></i>
-            </a>
+            <i class="far fa-heart faHeart heart"></i>
+            <i class="fas fa-heart fasHeart"></i>
         </div>
         <div id="starters">
             <h3>Entrées</h3>
@@ -35,7 +39,7 @@
                 <div class="contentMinCard">
                     <p class="accompaniment">Aux zestes d'orange</p>
                     <p class="price">25€</p>
-                    <span class="valid"><i class="fas fa-check-circle fa-sm"></i></span>
+                    <span class="valid"><i class="fas fa-check-circle fa-sm fa-2x"></i></span>
                 </div>
             </div>
             <div class="minCard startersTwo">
@@ -43,7 +47,7 @@
                 <div class="contentMinCard">
                     <p class="accompaniment">Carotte, panais, topinambour</p>
                     <p class="price">35€</p>
-                    <span class="valid"><i class="fas fa-check-circle fa-sm"></i></span>
+                    <span class="valid"><i class="fas fa-check-circle fa-sm fa-2x"></i></span>
                 </div>
             </div>
             <div class="minCard startersThree">
@@ -51,7 +55,7 @@
                 <div class="contentMinCard">
                     <p class="accompaniment">Revisitée</p>
                     <p class="price">20€</p>
-                    <span class="valid"><i class="fas fa-check-circle fa-sm"></i></span>
+                    <span class="valid"><i class="fas fa-check-circle fa-sm fa-2x"></i></span>
                 </div>
             </div>
         </div>
@@ -62,7 +66,7 @@
                 <div class="contentMinCard">
                     <p class="accompaniment">Accompagnées d'une purée de panais</p>
                     <p class="price">40€</p>
-                    <span class="valid"><i class="fas fa-check-circle fa-sm"></i></span>
+                    <span class="valid"><i class="fas fa-check-circle fa-sm fa-2x"></i></span>
                 </div>
             </div>
             <div class="minCard dishesTwo">
@@ -70,7 +74,7 @@
                 <div class="contentMinCard">
                     <p class="accompaniment">Et parmentier de pommes de terres</p>
                     <p class="price">35€</p>
-                    <span class="valid"><i class="fas fa-check-circle fa-sm"></i></span>
+                    <span class="valid"><i class="fas fa-check-circle fa-sm fa-2x"></i></span>
                 </div>
             </div>
             <div class="minCard dishesThree">
@@ -78,7 +82,7 @@
                 <div class="contentMinCard">
                     <p class="accompaniment">Sur son lit de gnocchis aux légumes</p>
                     <p class="price">44€</p>
-                    <span class="valid"><i class="fas fa-check-circle fa-sm"></i></span>
+                    <span class="valid"><i class="fas fa-check-circle fa-sm fa-2x"></i></span>
                 </div>
             </div>
         </div>
@@ -89,7 +93,7 @@
                 <div class="contentMinCard">
                     <p class="accompaniment">Et purée de noisettes</p>
                     <p class="price">18€</p>
-                    <span class="valid"><i class="fas fa-check-circle fa-sm"></i></span>
+                    <span class="valid"><i class="fas fa-check-circle fa-sm fa-2x"></i></span>
                 </div>
             </div>
             <div class="minCard dessertsTwo">
@@ -97,7 +101,7 @@
                 <div class="contentMinCard">
                     <p class="accompaniment">Revisité</p>
                     <p class="price">22€</p>
-                    <span class="valid"><i class="fas fa-check-circle fa-sm"></i></span>
+                    <span class="valid"><i class="fas fa-check-circle fa-sm fa-2x"></i></span>
                 </div>
             </div>
             <div class="minCard dessertsThree">
@@ -105,7 +109,7 @@
                 <div class="contentMinCard">
                     <p class="accompaniment">Myrtilles et pâte d'amande</p>
                     <p class="price">23€</p>
-                    <span class="valid"><i class="fas fa-check-circle fa-sm"></i></span>
+                    <span class="valid"><i class="fas fa-check-circle fa-sm fa-2x"></i></span>
                 </div>
             </div>
         </div>
