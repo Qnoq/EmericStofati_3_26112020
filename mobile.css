@@ -5,12 +5,16 @@
     }
     #logo img {
         position: relative;
-        left: -5rem;
+        left: -6rem;
         width: 50%;
         text-align: center;
     }
     .hiddenInput {
         display: none;
+    }
+    .price {
+        margin-left: 0!important;
+        position: initial;
     }
     #location {
         font-weight: bolder;
@@ -242,6 +246,7 @@
         padding: .5rem;
         position: relative;
         margin-top: -50px;
+        width: 96%;
     }
     #content h2 {
         font-family: 'Shrikhand', sans-serif;
@@ -365,7 +370,7 @@
         border-radius: 50%;
         display: inline-block;
         box-sizing: border-box;
-        margin: 5rem 8rem;
+        margin: 5rem 10rem;
         font-size: 8px;
         position: relative;
         text-indent: -9999em;
