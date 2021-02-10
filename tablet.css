@@ -22,7 +22,7 @@
         padding: .5em 0 .5em 0;
         box-shadow: 0px -3px 0px #d5d5d5;
     }
-    #location span {
+    #location h2 {
         font-weight: 400;
     }
     .fa-map-marker-alt {
